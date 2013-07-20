@@ -9,11 +9,11 @@ rdiscount:
 # User Options
 name: Andrew Heuermann
 baseurl:   # Leave this blank unless you are using a directory other than the root directory (Do not use a trailing slash '/')
-description: 
+description: I build things
 email: aheuermann@gmail.com
 twitter: 
 icon_url: https://en.gravatar.com/userimage/2518790/7fc13aa24eda12ec6f15e4d059b8e032.png?size=200
-disqus_shortname: 
+disqus_shortname: heuio
 
 # Color Options
 text_color: '#444444'
@@ -35,7 +35,9 @@ post_background:
 # Footer
 footer_title: 
 footer_description: 
+social_links: false
 social_links_title: Me on the Web
+twitter_url: http://twitter.com/aheuermann 
 github_url: http://github.com/aheuermann
 flickr_url: 
 instagram_url: 

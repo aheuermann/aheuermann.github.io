@@ -81,9 +81,7 @@
     <nav class="pages">
       <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/" title="{{ site.name }} - Home" class="portrait-icon user-icon"><img src="{{ site.icon_url }}" alt="{{ site.name }}"></a>
       <ul>
-      <li>
-        <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">Home</a>
-      </li>
+      <li><a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">Home</a></li>
       {% for weight in (1..10) %}
         {% for p in site.pages %}
           {% if p.weight == weight %}
@@ -97,6 +95,10 @@
           {% endif %}
         {% endfor %}
       {% endfor %}
+      {% if site.github_url %}<li><a href="{{ site.github_url }}/">Github</a></li>{% endif %}
+      {% if site.twitter_url %}<li><a href="{{ site.twitter_url }}/">Twitter</a></li>{% endif %}
+      {% if site.linkedin_url %}<li><a href="{{ site.linkedin_url }}/">LinkedIn</a></li>{% endif %}
+      {% if site.youtube_url %}<li><a href="{{ site.youtube_url }}/">Youtube</a></li>{% endif %}
       </ul>
     </nav>
   </div>
