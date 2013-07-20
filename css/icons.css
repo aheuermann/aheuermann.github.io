@@ -31,7 +31,7 @@
  *   [class*="etp-"]:before { */
 .etp-phone:before, .etp-mobile:before, .etp-mouse:before, .etp-address:before, .etp-mail:before, .etp-paper-plane:before, .etp-pencil:before, .etp-feather:before, .etp-attach:before, .etp-inbox:before, 
 .etp-reply:before, .etp-reply-all:before, .etp-forward:before, .etp-user:before, .etp-users:before, .etp-add-user:before, .etp-vcard:before, .etp-export:before, .etp-location:before, .etp-map:before,
-.etp-timeago:before, .etp-rss:before, .etp-camera:before, .etp-next:after, .etp-previous:before, .etp-comments:before, .etp-zoom:after, .etp-permalink:before {
+.etp-timeago:before, .etp-rss:before, .etp-camera:before, .etp-next:after, .etp-previous:before, .etp-comments:before, .etp-zoom:after, .etp-permalink:before, .etp-video:before {
   font-family: "Entypo";
   speak: none;
   font-size: 210%;
@@ -44,6 +44,11 @@
   top: 2px; }
 
 /* mapping characters:: http://www.entypo.com/characters/ */
+.etp-video:before{ 
+  content: "\1F3AC"; 
+  font-size: 200%;
+}
+
 .etp-phone:before {
   content: "\1F4DE"; }
 
