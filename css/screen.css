@@ -1,1 +1,12 @@
 /* Your Styles Here */
+#main p {text-align:justify;}
+
+::-moz-selection {
+    background: #D5FE7A;
+    text-shadow: none;
+}
+
+::selection {
+    background: #D5FE7A;
+    text-shadow: none;
+}
