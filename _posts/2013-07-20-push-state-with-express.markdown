@@ -7,7 +7,7 @@ type: text
 
 I had some trouble getting push-state set up on heroku, so I figured I would share.  
 For those unfamiliar, push state allows you to manipulate the the url in the browser without refreshing the page. 
-This is great for client side apps which had to rely on location.hash in the past.
+This is great for client side apps which had to rely on `location.hash` in the past.
 
 To get it working I ended up using express and it was actually pretty simple.
 

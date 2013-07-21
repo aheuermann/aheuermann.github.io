@@ -5,9 +5,9 @@ title: 'Inter vs Milan at the San Siro'
 tags:
 - travel
 - soccer
+type: embed
+embed_code: <iframe width="560" height="420" src="http://www.youtube.com/embed/qYSsvjv0sVM?color=white&theme=light"></iframe>
 ---
-
-{% youtube qYSsvjv0sVM %}
 
 I’m finally getting around to uploading some of the videos I took from my 3 week trip to Europe last May. 
 This is was from the Inter vs AC Milan match that Meghan and I went to at the San Siro stadium in Milan, Italy.  
