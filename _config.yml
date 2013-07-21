@@ -1,10 +1,10 @@
 # Jekyll Specific Stuff
-markdown: rdiscount
+markdown: redcarpet
 pygments: true
 permalink: /posts/:title
 paginate: 10 # the number of post per page
-rdiscount:
-  extensions: [smart]
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 # User Options
 name: Andrew Heuermann
