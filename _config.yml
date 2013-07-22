@@ -9,7 +9,7 @@ redcarpet:
 # User Options
 name: This is my blog
 baseurl:   # Leave this blank unless you are using a directory other than the root directory (Do not use a trailing slash '/')
-description: 'Andrew Heuermann - Software developer, technology enthusiast, and avid soccer fan'
+description: 'Andrew Heuermann - Software developer, traveler, and avid soccer fan'
 email: aheuermann@gmail.com
 twitter: 
 icon_url: https://en.gravatar.com/userimage/2518790/7fc13aa24eda12ec6f15e4d059b8e032.png?size=200
