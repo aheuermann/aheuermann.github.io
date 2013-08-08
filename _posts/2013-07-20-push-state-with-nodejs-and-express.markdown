@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Push State with Express
+title: Push State with Node.js and Express
 category: posts
 type: text
 ---
