@@ -11,22 +11,23 @@ This doesn't seem like much of a server-side issue, and it isn't until the user 
 
 To get it working I ended up using express and it was actually pretty simple.  Here is my server script.
 
-```coffeescript
-express = require 'express'
-path = require 'path'
+```javascript
+var express = require('express'),
+    path = require('path'),
+    port = process.env.PORT || 8080,
+    app = express();
  
-app = express()
- 
-app.configure ->
-  app.use express.static(__dirname + '/public')
+app.configure(function() {
+  app.use(express.static(__dirname + '/public'));
+});
 
-app.all '*', (request, response) ->
-  response.sendfile './public/index.html'
+app.get('*', function(request, response){
+  response.sendfile('./public/index.html');
+});
 
- 
-port = process.env.PORT || port
-console.log "startServer on #{port}"
-app.listen port
+app.listen(port);
+console.log("server started on port " + port);
+
 
 ```
-Also, you should be able to add routes before the `app.all '*'` without issue. Hope this helps someone in the future.
+Also, you should be able to add routes before the `app.get('*', ...`. Hope this helps someone in the future.
