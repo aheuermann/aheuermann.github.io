@@ -20,7 +20,7 @@
       Bryant - 1.0.0
       Premium Jekyll Theme
       https://github.com/stylehatch
-      Theme by: Style Hatch - http://stylehatch.co - @stylehatch 
+      Theme by: Style Hatch - http://stylehatch.co - @stylehatch
          _____ __        __        __  __      __       __
         / ___// /___  __/ /__     / / / /___ _/ /______/ /_
         \__ \/ __/ / / / / _ \   / /_/ / __ `/ __/ ___/ __ \
@@ -54,7 +54,7 @@
     {% endif %}
 
     StyleHatch.disqusID = "{{ site.disqus_shortname }}";
-    
+
   </script>
 
   {% include override.html %}
@@ -81,7 +81,6 @@
     <nav class="pages">
       <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/" title="{{ site.name }} - Home" class="portrait-icon user-icon"><img src="{{ site.icon_url }}" alt="{{ site.name }}"></a>
       <ul>
-      <li><a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">Home</a></li>
       {% for weight in (1..10) %}
         {% for p in site.pages %}
           {% if p.weight == weight %}

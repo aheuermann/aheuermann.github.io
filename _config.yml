@@ -9,9 +9,9 @@ redcarpet:
 # User Options
 name: This is my blog
 baseurl:   # Leave this blank unless you are using a directory other than the root directory (Do not use a trailing slash '/')
-description: 'Andrew Heuermann - Software developer, traveler, and avid soccer fan'
+description:
 email: aheuermann@gmail.com
-twitter: 
+twitter:
 icon_url: https://en.gravatar.com/userimage/2518790/7fc13aa24eda12ec6f15e4d059b8e032.png?size=200
 disqus_shortname: heuio
 
@@ -33,25 +33,25 @@ background: '#fcfcfc'
 post_background:
 
 # Footer
-footer_title: 
-footer_description: 
+footer_title:
+footer_description:
 social_links: false
 social_links_title: Me on the Web
-twitter_url: http://twitter.com/aheuermann 
+twitter_url: http://twitter.com/aheuermann
 github_url: http://github.com/aheuermann
-flickr_url: 
-instagram_url: 
-vimeo_url: 
-facebook_url: 
-google_plus_url: 
-pinterest_url: 
-tumblr_url: 
+flickr_url:
+instagram_url:
+vimeo_url:
+facebook_url:
+google_plus_url:
+pinterest_url:
+tumblr_url:
 linkedin_url: http://www.linkedin.com/in/andrewheuermann
-dribbble_url: 
-lastfm_url: 
-rdio_url: 
-spotify_url: 
-skype_url: 
-soundcloud_url: 
-behance_url: 
+dribbble_url:
+lastfm_url:
+rdio_url:
+spotify_url:
+skype_url:
+soundcloud_url:
+behance_url:
 youtube_url: http://www.youtube.com/user/aheuermann/videos
