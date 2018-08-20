@@ -7,7 +7,7 @@
   // SCRIPTS TO LOAD ON LIVE BLOGS, NOT INSIDE CUSTOMIZE MENU
   // --------------------------------------------------
   if(!StyleHatch.customizeMode){
-    $.getScript('http://platform.twitter.com/widgets.js');
+    $.getScript('https://platform.twitter.com/widgets.js');
     
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
       po.src = 'https://apis.google.com/js/plusone.js';
@@ -106,8 +106,8 @@
             } catch(err){
               //log('not there', err);
             }
-            $.getScript('http://platform.twitter.com/widgets.js');
-            $.getScript('http://assets.pinterest.com/js/pinit.js');
+            $.getScript('https://platform.twitter.com/widgets.js');
+            $.getScript('https://assets.pinterest.com/js/pinit.js');
           }
         });
       
@@ -206,7 +206,7 @@
         var postID = $(this).parent().attr('data-postID');
         var reblog = $(this).parent().attr('data-reblog');
         var oauth = reblog.slice(-8);
-        var likeURL = 'http://www.tumblr.com/' + command + '/' + oauth + '?id=' + postID;
+        var likeURL = 'https://www.tumblr.com/' + command + '/' + oauth + '?id=' + postID;
 
         if(liked){
           $(this).removeClass('tliked');
@@ -353,7 +353,7 @@
               (function () {
                   var s = document.createElement('script'); s.async = true;
                   s.type = 'text/javascript';
-                  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+                  s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
                   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
               }());
           }
@@ -430,7 +430,7 @@
         for (var i = 0; i < StyleHatch.instagramCount; i++) {
           $instagram.find('ul').append('<li><a href="' + data.data[i].link + '" target="_blank"><img src="' + data.data[i].images.low_resolution.url + '" /></a></li>');
         }
-        var instagramFeed = 'http://www.instagram.com/' + data.data[0].user.username;
+        var instagramFeed = 'https://www.instagram.com/' + data.data[0].user.username;
         $instagram.find('a.btn').attr('href', instagramFeed);
       }
       });
