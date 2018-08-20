@@ -6,7 +6,7 @@ tags:
 - travel
 - soccer
 type: embed
-embed_code: <iframe width="560" height="420" src="http://www.youtube.com/embed/zFLz4kVfZek?color=white&theme=light"></iframe>
+embed_code: <iframe width="560" height="420" src="https://www.youtube.com/embed/zFLz4kVfZek?color=white&theme=light"></iframe>
 ---
 
 I made it to the NPower Championship Playoff Final at Wembley Stadium in London. I managed to scalp a ticket about 30 minutes before the game.  The match was Blackpool vs West Ham with the winner being promoted to the Premier League.  I sat in the West Ham section. West Ham won with a late goal in the  87’ minute. This is after the match.
